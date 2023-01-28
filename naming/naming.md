@@ -54,3 +54,17 @@ Commonly there are four casing style in programming. They are:
 You may see the differences between each others.
 
 > **NOTE:** I mentioned programming language that use that casing style, but it does not mean other programming languages (that I have not mentioned) does not have those styles of casing. So explore the casing style of each by read docs and codes of the community of each programming languages. Because following the languages' conventions is also the part of writing a clean code.
+
+<br>
+
+## Naming Variables and Properties Theory
+
+| Value of an Object | Value is Number or String | Value is a boolean |
+|--|--|--|
+| Describe the Value | Describe the Value | Answer a true/false question |
+| `user` <br> `database` | `name` <br> `age` | `isActive` <br> `loggedIn` |
+| Provide more details without introducing redundancy | Provide more details without introducing redundancy | Provide more details without introducing redundancy |
+| `authenticatedUser` <br> `sqlDatabase` | `firstName` <br> `age` (it has been specic) | `isActiveUser` <br> `loggedIn` |
+
+<br>
+
