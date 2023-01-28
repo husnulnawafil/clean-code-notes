@@ -114,8 +114,6 @@ example:
 
 ## Naming Exceptions You Should be Aware Of
 - We use languages and there are a lot built-in syntax that is built in the language. Even when it is written in bad naming (exampe [here](./naming-exception.py)) we can not change about it. But still we can use good naming in our code. Be aware of it! We are not going to change that, but we accept that and try to write your clode clearly.
-<br>
 - Naming classes like this DateUtill or also utility to be even more expressive can make sense, especially if they mostly contain static methods like this one does.
-<br>
 - So for getters and setters (like [here](naming-exception-2.ts)), it is okay to use property naming rules,
 even though it's technically written as a method. But since we access it as a property we should also name it as such. So that's another exception to be aware of.
