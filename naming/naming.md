@@ -40,3 +40,17 @@ But all the above charts just the rules, you need to choose verbs, nouns, or adj
 
 <br>
 
+## Casing Conventions and Programming Languages
+Commonly there are four casing style in programming. They are:
+
+1. `snake_case` .. eg. `is_valid` , `send_response` .. usage example in **python** as variables and functions/methods naming. 
+
+2. `camelCase` .. eg. `isValid` , `sendResponse` .. usage example in **java or javascript** as variables and functions/methods naming.
+
+3. `PascalCase` .. eg. `AdminRole` , `UserRepository` .. usage example in **many programming languages** as classes name.
+
+4. `kebab-case` .. eg. `<side-drawer>` .. usage example in **html** as custom html elements.
+
+You may see the differences between each others.
+
+> **NOTE:** I mentioned programming language that use that casing style, but it does not mean other programming languages (that I have not mentioned) does not have those styles of casing. So explore the casing style of each by read docs and codes of the community of each programming languages. Because following the languages' conventions is also the part of writing a clean code.
