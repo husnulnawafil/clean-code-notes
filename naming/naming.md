@@ -76,3 +76,23 @@ example:
 
 > **NOTE:** Avoid to name something not specific. 
 
+<br>
+
+## Naming Functions Theory
+| Function performs a operation | Function computes a boolean |
+|--|--|
+| Describe the operation | Answer a true/false question |
+| `getUser(...)` <br> `response.send()` | `isValid(...)` <br> `purchase.isPaid()` |
+| Provide more detail without introducing redundancy | Provide more detail without introducing redundancy |
+| `getUserByEmail(...)` <br> `response.send()` (already clear that func is for sending email) | `emailIsValid(...)` <br> `purchase.isPaid()` (already clear that func is for checking whether the purchase is already paid or not)
+
+<br>
+
+example:
+
+| What does the function do? | Bad Names | Okay Names | Best Names |
+|--|--|--|--|
+| Save user data to database | `process(..)` <br> `handle(...)` (both are very unspecific - what is really being processed?) | `save(...)` <br> `storeData(...)` (at least we know that something is saved - but what?) | `saveUser(...)` <br> `user.store()` (The intent is very clear - especially with the method) |
+| Validate the user input | `process(...)` <br> `save(...)` (unspecific "process" or even misleading "save") | `validateSave(...)` <br> `check(...)` (both names are not 100% specific) | `validate(...)` <br> `isValid(...)` (both make sense - depends on what the function does exactly) |
+
+<br>
