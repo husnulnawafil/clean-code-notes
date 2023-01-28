@@ -90,9 +90,24 @@ example:
 
 example:
 
-| What does the function do? | Bad Names | Okay Names | Best Names |
+| What does the function do? | Bad Names | Okay Names | Good Names |
 |--|--|--|--|
 | Save user data to database | `process(..)` <br> `handle(...)` (both are very unspecific - what is really being processed?) | `save(...)` <br> `storeData(...)` (at least we know that something is saved - but what?) | `saveUser(...)` <br> `user.store()` (The intent is very clear - especially with the method) |
 | Validate the user input | `process(...)` <br> `save(...)` (unspecific "process" or even misleading "save") | `validateSave(...)` <br> `check(...)` (both names are not 100% specific) | `validate(...)` <br> `isValid(...)` (both make sense - depends on what the function does exactly) |
 
 <br>
+
+## Naming Classes Theory
+| Describe the Object| |
+|--|--|
+|`User` <br> `Product` | |
+|Provide more detail without introducing redundancy | |
+| `Customer` <br> `Course` | |
+| Avoid redundant suffixes | Classes are typically instantiate |
+| `DatabaseManager` | Instantiating the 'DatabaseManager' makes no sense |
+
+example: 
+| Which object is described? | Bad Names | Okay Names | Good Names |
+|--|--|--|--|
+| A user | `class UEntity` <br> `class ObjA` (both are very unspecific) | `class UserObj` <br> `class AppUser` (both names have redundant information) | `class User` <br> `class Admin` <br> `class Customer` ("User" is just fine - or "Admin" and "Customer" are more specific kind of user) |
+| A Database (_in code_) | `class Data` <br> `class DataStorage` (It is not clear that we are describing a database) | `class Db` <br> `class Data` (Not 100% specific) | `class Database` <br> `class SQLDatabase` ("Database" is good - while "SQLDatabase" is more specific means that it is even better)
