@@ -64,7 +64,15 @@ You may see the differences between each others.
 | Describe the Value | Describe the Value | Answer a true/false question |
 | `user` <br> `database` | `name` <br> `age` | `isActive` <br> `loggedIn` |
 | Provide more details without introducing redundancy | Provide more details without introducing redundancy | Provide more details without introducing redundancy |
-| `authenticatedUser` <br> `sqlDatabase` | `firstName` <br> `age` (it has been specic) | `isActiveUser` <br> `loggedIn` |
+| `authenticatedUser` <br> `sqlDatabase` | `firstName` <br> `age` (it has been specific) | `isActiveUser` <br> `loggedIn` |
 
 <br>
+
+example:
+| What is stored? | Bad Names | Okay Names | Good Names |
+|--|--|--|--|
+| A user object (name, email, age) | `u` <br> `data` <br>(not specific and "u" and "data" could contain anything) | `userData` <br> `person` <br> ("userData" is a bit redundant, and "person" is too unspecific) | `user` <br> `customer` <br> ("user" is descriptive enough, and "customer" is even more specific) |
+| User input validation result (true/false) | `v` <br> `val` <br> ("v" is could be anything and "val" could stand for value instead of validation) | `correct` <br> `validatedInput` <br> (both terms do not necessarily imply a true/false value) | `isCorrect` <br> `isValid` <br> `isInputValid` <br> (those terms are descriptive and have clear value types) |
+
+> **NOTE:** Avoid to name something not specific. 
 
