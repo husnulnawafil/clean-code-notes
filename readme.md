@@ -1,6 +1,6 @@
 # Clean Code Notes
 
-[Course Link]('https://www.udemy.com/course/writing-clean-code')
+[Course Link](https://www.udemy.com/course/writing-clean-code)
 
 
 ## How to read this documentation
