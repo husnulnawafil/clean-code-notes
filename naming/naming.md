@@ -1,6 +1,5 @@
 # Section 2: Naming - Assigning Names to Variables, Functions, Classes & More
 
-
 ## Why Good Names Matter
 Actually name of variable, function and etc. should be meaningful. It helps other who read our code code can easily understand without even dive detail into the code itself.
 <br>
@@ -13,6 +12,8 @@ Example:
     3. `if (isLoggedIn) {...}`
 <br><br>
 Examples above can make us easily understand what each code process without ever looking at the entire code inside the function. So it helps reducing _**cognitive load**_.
+
+<br>
 
 ## How to Name Correctly
 - Variable
@@ -35,4 +36,7 @@ graph TB
 A[Class] --> B["Use classes to create 'things'"] -- eg. a user, a product, a http request body --> C[Use nouns or short phrases with nouns] --> D["class User = {...} , class RequestBody = {...}"]
 ```
 <br>
-But above chart just the rules, you need to choose verbs, nouns, or adjectives by your own.
+But all the above charts just the rules, you need to choose verbs, nouns, or adjectives by your own.
+
+<br>
+
