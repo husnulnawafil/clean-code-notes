@@ -14,8 +14,8 @@ As simply as that. Enjoy!
 
 > **NOTE:** For helping you figure out this repository content, I will provide you the table of contents and its branch name each the note updated.
 
-| Section Name | Contents | Branch Name |
+| Section Name | Contents | Link to note |
 |--|--|--|
-| 1. Introduction | Introduction to this repository | `main` |
-| 2. Naming | Assigining Variables, Functions, Classes and More | `naming` |
-| 3. Structures, Comments, and Formatting| Giving good comments and good way to format the code | `structure-comment-format` |
+| 1. Introduction | Introduction to this repository | [link](#) |
+| 2. Naming | Assigining Variables, Functions, Classes and More | [link](#) |
+| 3. Structures, Comments, and Formatting| Giving good comments and good way to format the code | [link](#) |
